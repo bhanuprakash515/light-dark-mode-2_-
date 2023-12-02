@@ -1,0 +1,40 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dark {
+  background-color: black;
+  height: 200px;
+  width: 500px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #000000;
+}
+
+.light {
+  background-color: white;
+  height: 200px;
+  width: 500px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #000000;
+}
+
+.button {
+  height: 45px;
+  width: 150px;
+  color: #000000;
+  font-family: 'Roboto';
+  border-radius: 12px;
+}
